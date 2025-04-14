@@ -1,0 +1,187 @@
+/*universal selector*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*body color*/
+body{
+    background-color: rgb(24, 8, 8);
+}
+/*navbar*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*navbar logo*/
+.logo img{
+    width: 150px;
+    height: 70px;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+/*navbar sign in page*/
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    width: 400px;;
+    height: 25px;
+    border-radius: 20px;
+    padding:13px;
+    border: 2px;
+    background-color: aliceblue;
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+/*netflix content*/
+.bgimg{
+    position: relative;
+}
+.bgimg img{
+    margin-top: 20px;
+    margin-left: 140px;
+    width: 85%;
+    height: 700px;
+    border-radius: 80px;
+    opacity: 10px; /* Makes the image slightly transparent */
+    border: 2px solid rgb(90, 84, 84);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+}
+
+.img-content{
+    position: absolute;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    top: 400px;
+    left: 350px;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.img-content p{
+    font-size: 30px;
+    text-align: center;
+}
+
+/*content2*/
+.content2{
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+    padding: 9px;
+    color: grey;
+}
+.content2 input{
+    margin-top: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius:40px;
+    width: 550px;
+    height: 50px;
+}
+.content2 button{
+    width: 270px;
+    height: 70px;
+    margin-left: 20px;
+    background-color: red;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    border-radius: 40px;
+    border: none;
+}
+
+.content2 a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+}
+
+.content2 button:hover{
+    background-color: rgb(194, 23, 23);
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    border: none;
+}
+/*content-3*/
+
+.content3 {
+    margin-top: 50px;
+}
+
+.content3 h3{
+    color: white;
+    font-size: 50px;
+    margin-left: 150px;
+}
+
+.c-3img img{
+    margin-top: 30px;
+    margin-left: 65px;
+    padding-left: 10px;
+    width: 130px;
+    height: 250px;
+}
+/*content-4*/
+.content4{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.content4 h3{
+    color: white;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+         
+}
+.c-4img img{
+    width: 320px;
+   border-radius: 30px;
+   align-items: center;
+   padding: 10px;   
+}
+ 
+
+/*-summery code-*/
+details{
+    margin-left: 60px;
+    width: 90%;
+    height: auto;
+    background: rgba(135, 101, 101, 0.5); /* Semi-transparent color */
+    backdrop-filter: blur(10px); /* Applies the blur effect */
+    -webkit-backdrop-filter: blur(50px); /* For Safari */
+    display: grid;
+    grid-column: 4;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+summary{
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+summary ~p{
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+
